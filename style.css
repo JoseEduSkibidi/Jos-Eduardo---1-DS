@@ -20,3 +20,33 @@ h1{
 font-size: 75px;
     
 }
+.produto-container {
+display:none ;
+width: 100%;
+justify-content: space-around;
+
+}
+@media screen and  (  max-width: 768px) {  
+    .produto-container{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+}
+
+
+.produto-container {
+    width: 100%;        
+       
+    margin: 0 auto;    
+    display: flex;      
+    justify-content: center;
+    align-items: center; 
+    border: 1px solid hwb(212 51% 11%);
+    background-color: hwb(212 51% 11%); 
+}
+
+.produto-container img {
+max-width: 80%;     
+     }
+    
